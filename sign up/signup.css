@@ -1,0 +1,42 @@
+*{
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin: 0rem;
+}
+
+
+
+#main{
+    height: 100vh;
+    background-color: #2200e9;
+    background-image: linear-gradient(160deg, #8b86a4 35%, #05059c 70%, #040404 84%);
+}
+
+header{
+    background-color: rgb(100, 100, 180);
+    padding: 1rem;
+}
+
+header .display{
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+
+.vee{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0rem 8rem 1rem;
+    color: blue;
+}
+
+.description{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: -1rem 8rem 1rem;
+}
+
+#book-form{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}

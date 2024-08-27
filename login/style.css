@@ -1,0 +1,123 @@
+html{
+    font-size: 1.2rem;
+}
+
+body{
+ background-color: aqua;
+ background-color: #4158D0;
+ background-image: linear-gradient(180deg, #5e41d0 0%, red 100%); 
+   height: 100vh;
+}
+
+.auth{
+    background-color:rgba(245, 245, 245, 0.529);
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform:translate(50%,-50%);
+    padding:2rem;
+    border-radius: 0.5rem;
+    min-width: 10rem;
+    max-width: 30rem;
+
+}
+
+
+.name{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.auth h1{
+    font-size:1.2rem ;
+    margin-bottom: -1rem;
+    padding-bottom: 2rem;
+    text-align:center;
+    border-bottom: 0.1rem solid red;
+
+
+}
+
+.auth form{
+    margin: 1rem;
+}
+
+.auth input{
+    width:100%;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 0.15rem solid black;
+    padding: 0 0.4rem;
+    height: 1.5rem;
+    outline: none;
+}
+
+.auth p{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    padding: 3rem 0.5 0 0;
+    color: wheat;
+}
+
+.auth p:hover{
+    cursor: pointer;
+    color:rgba(128, 128, 128, 0.845)
+}
+
+.auth input:hover{
+    color: rgb(11, 11, 18);
+}
+
+.auth button{
+    display: block;
+    margin:2rem auto;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    width: 90%;
+    border-radius: 1.5rem;
+    background-color: #5e41d0;
+    font-weight: 400;
+    
+
+}
+
+.auth button{
+    cursor: pointer;
+}
+
+.auth .login-message{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.auth .login-message span{
+    color: #5e41d0;
+    font-weight:600;
+}
+
+.auth .login-message span:hover{
+    cursor: pointer;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+footer img:hover{
+    cursor: pointer;
+}
+
+
+
+.forgotpassword{
+    text-align: center;
+}
